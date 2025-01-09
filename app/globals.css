@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1a2e1a;
+  --foreground: #ffffff;
+  --accent: #4CAF50;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* Add custom styles for smoother font rendering */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add hover effects */
+a {
+  transition: all 0.2s ease-in-out;
+}
+
